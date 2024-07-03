@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // takes a string input from the user and converts it to an integer using parseInt.
+        const userInput = parseInt(prompt("Enter a number: "));
+        // checks whether the remainder of the division of the user's input by 2 is 0. If it is, the number is even.
+        //The ternary operator ? : is used to assign a value to result based on the condition. If the condition is true, result is set to "Even", otherwise it's set to "Odd".
+
+
+const result = userInput % 2 === 0 ? "Even" : "Odd";
+//Finally, we log the result to the console using template literals.
+
+
+console.log(`The number ${userInput} is ${result}.`);
+
+    </script>
+    
+</body>
+</html>
